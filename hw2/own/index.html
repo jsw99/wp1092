@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Viewer</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="styles.css"
+        />
+        
+    </head>
+    <body>
+
+        <!-- Try to implement an HTML that looks like the reference example:
+        ./images/screenshot.png  -->
+        <!-- Please use the class names and IDs as defined in styles.css
+         so that the outlook can be the same as the reference. -->
+        
+        <div class="image-viewer__container">
+            <h1 class="image-viewer__title">
+                Image Viewer
+            </h1>
+            <div class="image-viewer__main">
+                <button class="image-viewer__button" onclick="nextImage(-1)">
+                    <img src="./images/back.png" id="previous"/> 
+                </button>
+                <div class="image-viewer__display">
+                    <img src="./images/1.jpeg" id="display"></img>
+                    <div class="image-viewer__display-source-wrapper">
+                        <span id="source">source: 
+                            <a href="https://www.gettyimages.hk/detail/%E6%96%B0%E8%81%9E%E7%85%A7%E7%89%87/michael-jordan-of-the-chicago-bulls-rests-on-the-court-during-a-%E6%96%B0%E8%81%9E%E7%85%A7%E7%89%87/509506?adppopup=true" id="url">
+                                https://www.gettyimages.hk/detail/%E6%96%B0%E8%81%9E%E7%85%A7%E7%89%87/michael-jordan-of-the-chicago-bulls-rests-on-the-court-during-a-%E6%96%B0%E8%81%9E%E7%85%A7%E7%89%87/509506?adppopup=true
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <button class="image-viewer__button" onclick="nextImage(1)">
+                    <img src="./images/next.png" id="next"/> 
+                </button>
+            </div>
+        </div>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+</html>
