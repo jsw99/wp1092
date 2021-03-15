@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jim's Image Viewer</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="styles.css"
+        />
+    </head>
+    <body>
+        <!-- Try to implement an HTML that looks like the reference example:
+        ./images/screenshot.png  -->
+        <!-- Please use the class names and IDs as defined in styles.css
+         so that the outlook can be the same as the reference. -->
+         <div class="image-viewer__container">
+            <div id="image-viewer__title">派大星傻笑</div>
+
+            <div class="image-viewer__main">
+
+                <div class="image-viewer__button" onclick="back ();">
+                    <img id="b" class="disabled" src="./images/back.png" alt="前一張">
+                </div>
+
+
+                <div class="image-viewer__display">
+                    <img  id="display" src="https://attach.setn.com/newsimages/2020/03/11/2450111-XXL.jpg" alt="pic">
+                    <div class="image-viewer__display-source-wrapper">
+                        <span>
+                            <a id="source" href="https://attach.setn.com/newsimages/2020/03/11/2450111-XXL.jpg" target="_blank">https://attach.setn.com/newsimages/2020/03/11/2450111-XXL.jpg</a>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="image-viewer__button" onclick="next ();">
+                    <img id="n" src="./images/next.png" alt="下一張">
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+         </div>
+        <script src="main.js"></script>
+    </body>
+</html>
