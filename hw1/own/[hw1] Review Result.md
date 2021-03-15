@@ -12,10 +12,10 @@ WP109-2 HW1 Review Result
 	- 有做到動畫
 
 
-## Reviewer 1
+## Reviewer 2
 - 作業完成情況
 	- 完美 (Perfect, 題目的基本與進階要求完全都有做到)
 
 - 簡單評論
-	- 有做到動畫
+	- 基本功能都做到了
 
