@@ -1,0 +1,20 @@
+<section class="todo-app__main">
+    <input class="todo-app__input"></input>
+    <ul class="todo-app__list" id="todo-list">
+        <li class="todo-app__item">
+            <div class ="todo-app__checkbox">
+                <input id="2" type="checkbox"></input>
+                <label for="2"></label>
+            </div>
+            <h1 class="todo-app__item-detail">
+                This is the 1 TODO
+            </h1>
+            <img src="./img/x.png" class="todo-app__item-x"></img>
+        </li>
+    </ul>
+</section>
+<footer class="todo-app__footer" id="todo-footer">
+    <div class="todo-app__total">2 left</div>
+    <ul class="todo-app__view-buttons">all</ul>
+    <div class="todo-app__clean">clear completed</div>
+</footer>   
